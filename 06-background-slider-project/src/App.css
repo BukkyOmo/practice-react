@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  border: 3px solid green;
+  width: 40rem;
+  height: 50%;
+  position: relative;
+  background: url('./images/benz1.jpg');
+  background-size: cover;
+}
+
+button{
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid green;
+  outline: none;
+}
+
+.prev{
+  position: relative;
+  right: 300px;
+  top: 45%;
+}
+
+.next{
+  position: relative;
+  left: 300px;
+  top: 45%;
+}
