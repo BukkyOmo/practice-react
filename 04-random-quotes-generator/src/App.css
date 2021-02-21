@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  line-height: 30px;
+}
+
+.container{
+  width: 35rem;
+  border: 2px solid black;
+  padding: 70px 40px;
+  background-color: indigo;
+  color: #FFF;
+}
+
+p{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button{
+  padding: 15px;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #FFF;
+}
+
+button:hover{
+  background-color: chartreuse;
+}
+
+.span-container{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
