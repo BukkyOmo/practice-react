@@ -15,12 +15,10 @@ class App extends Component {
   }
 
   handlePrevButton = () => {
-    this.setState(state => {
-      const newCounter = state.counter - 1;
-      return {
+    const newCounter = this.state.counter - 1;
+    this.setState(() => ({
         counter: newCounter < 0 ? this.arrayOfCars.length - 1 : newCounter
-      }
-    })
+    }))
   }
 
   handleNextButton = () => {
