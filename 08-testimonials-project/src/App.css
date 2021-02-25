@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 18px;
+    background-image: url('./images/benz1.jpg');
+    background-position: center;
+    color: #FFF;
+}
+
+.container{
+    width: 30rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-div{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    bottom: 150px;
+    left: 140px;
+}
+
+img{
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.review-div{
+    position: relative;
+    border: 2px solid #FFF;
+    padding: 30px 20px;
+    margin: 100px 10px;
+    height: 25vh;
+    line-height: 25px;
+}
+
+.prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-120%,-50%);
+}
+
+.next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(120%,-50%);
+}
+
+button{
+    padding: 10px;
+    outline: none;
+    border-radius: 50%;
+    border: 1px solid rgb(204, 95, 95);
+    cursor: pointer;
+}

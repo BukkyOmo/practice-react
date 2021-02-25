@@ -37,7 +37,7 @@ ol{
 
 .list{
   text-align: left;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .item-container{
@@ -53,4 +53,16 @@ ul{
 .button-container{
   display: flex;
   justify-content: space-between;
+}
+
+.edit-div{
+  border: 1px solid #333;
+  text-align: left;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.edit-input{
+  display: grid;
+  margin-bottom: 5px;
 }
